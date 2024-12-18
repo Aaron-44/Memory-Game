@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Memory Game</title> 
+  <link rel="stylesheet" href="style.css"> <!-- Verknüpft das CSS-Stylesheet "style.css" -->
+</head>
+<body>
+
+  <div class="designcontainer"> 
+    
+    <!-- Container für die Score-Anzeige -->
+    <div class="score-container">
+      <p>Score: <span class="Score">0</span></p> <!-- Anzeige für den aktuellen Punktestand -->
+      <p>Züge: <span class="Zug">0</span></p> <!-- Anzeige für die Anzahl der Züge -->
+      <p>Wenigste Züge: <span class="least-moves">-</span></p>
+      <button onclick="startGame()">Neues Spiel</button> <!-- Startet das Spiel über die Funktion "startGame()" -->
+    </div>
+
+    <h1>Memory Game</h1> <!-- Überschrift -->
+
+    <!-- Container für die Score-Anzeige -->
+    <div class="time-container"> 
+      <p>Stoppuhr: <span class="timer">0:00</span></p> <!-- Zeigt die laufende Zeit an -->
+      <p>Endzeit: <span class="end-time">-</span></p> <!-- Zeigt die finale Zeit am Spielende an -->
+      <p>Beste Zeit: <span class="best-time">-</span></p> <!-- Zeigt die beste Zeit an -->
+      <button onclick="clearLocalStorage()">Zurücksetzten</button> <!-- Butten um Zeit und Score zurückzusetzen-->
+    </div>
+
+  </div>
+
+  <!-- Spielfeld für die Karten, das mit JavaScript dynamisch gefüllt wird -->
+  <div class="grid-container"></div>
+
+  <script src="script.js"></script> <!-- Verknüpft die JavaScript-Datei "script.js" -->
+</body>
+</html>
