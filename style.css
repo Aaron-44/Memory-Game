@@ -205,8 +205,8 @@ body {
 /* Anpassung für Smartphones im Hochformat (bis 479px Breite) */
 @media (max-width: 500px) {
     .card {
-        width: 40px;
-        height: auto;
+        height: 60px;
+        width: auto;
         font-size: 14px;
     }
     h1 {
