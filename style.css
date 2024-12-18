@@ -138,7 +138,7 @@ button:hover {
 /* Layout der Karten-Rückseite */
 .card .back {
     /*background-color: lightblue; */
-    background-image: url("Vintage.jpg");
+    background-image: url("vintage.jpg");
     background-size: cover; /* Skaliert das Bild, sodass es die Rückseite vollständig bedeckt */
     background-position: center; /* Zentriert das Bild auf der Rückseite */
     border-radius: 10px; /* Abgerundete Ecken, die zur Form der Karte passen */
