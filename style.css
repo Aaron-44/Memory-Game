@@ -203,10 +203,10 @@ body {
 }
 
 /* Anpassung für Smartphones im Hochformat (bis 479px Breite) */
-@media (max-width: 479px) {
+@media (max-width: 500px) {
     .card {
-        height: 60px;
-        width: 30px;
+        height: 50%;
+        width: 25%;
         font-size: 14px;
     }
     h1 {
@@ -223,5 +223,7 @@ body {
     .grid-container {
         grid-gap :4px;
         max-width: 400px;
+        grid-template-columns: repeat(6, 50px); 
+        grid-template-rows: repeat(3, 70px); 
     }
 }
