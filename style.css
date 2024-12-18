@@ -82,13 +82,15 @@ button:hover {
     justify-content: center; 
     grid-gap: 5px;
     grid-template-columns: repeat(6, 110px); 
-    grid-template-rows: repeat(2, 160px); 
+    grid-template-rows: repeat(3, 140px); 
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 /* Stil für jede Karte */
 .card {
-    height: 140px;
-    width: 100px;
+    max-height: 140px;
+    max-width: 100px;
     border-radius: 10px;
     display: flex; 
     justify-content: center; 
@@ -158,8 +160,6 @@ body {
 /* Anpassung für Tablets (bis 1024px Breite) */
 @media (max-width: 1024px) {
     .card {
-        height: 140px;
-        width: 90%;
         font-size: 20px;
     }
     h1 {
@@ -172,13 +172,17 @@ body {
         font-size: 18px;
         padding: 8px 16px;
     }
+    
+    .grid-container{
+        grid-gap: 4px;
+    }
 }
 
 /* Anpassung für Smartphones im Querformat (bis 767px Breite) */
 @media (max-width: 767px) {
     .card {
-        height: 80px;
-        width: 60%;
+        height: 50px;
+        width: 40;
         font-size: 16px;
     }
     h1 {
@@ -192,13 +196,17 @@ body {
         padding: 6px 12px;
     }
 
+    .grid-container {
+        grid-gap :2px;
+    }
+
 }
 
 /* Anpassung für Smartphones im Hochformat (bis 479px Breite) */
 @media (max-width: 479px) {
     .card {
-        height: 80px;
-        width: 50%;
+        height: 60px;
+        width: 22px;
         font-size: 14px;
     }
     h1 {
