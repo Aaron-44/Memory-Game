@@ -83,7 +83,7 @@ button:hover {
     grid-gap: 5px;
     grid-template-columns: repeat(6, 110px); 
     grid-template-rows: repeat(3, 140px); 
-    max-width: 70%;
+    max-width: auto;
     margin: 0 auto;
 }
 
@@ -182,7 +182,7 @@ body {
 @media (max-width: 767px) {
     .card {
         height: 50px;
-        width: 40;
+        width: 80;
         font-size: 16px;
     }
     h1 {
@@ -205,8 +205,8 @@ body {
 /* Anpassung für Smartphones im Hochformat (bis 479px Breite) */
 @media (max-width: 479px) {
     .card {
-        height: 60px;
-        width: 22px;
+        height: 80px;
+        width: 50px;
         font-size: 14px;
     }
     h1 {
