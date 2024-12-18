@@ -206,7 +206,7 @@ body {
 @media (max-width: 500px) {
     .card {
         height: 60px;
-        width: 80px;
+        width: 40px;
         font-size: 14px;
     }
     h1 {
@@ -221,7 +221,8 @@ body {
     }
 
     .grid-container {
-        grid-gap: 0,01px;
+        row-gap: 1px; /* Vertikaler Abstand */
+        column-gap: 2px; /* Horizontaler Abstand */
         max-width: 480px;
         padding: 10px;
     }
