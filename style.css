@@ -223,7 +223,7 @@ body {
     .grid-container {
         grid-gap :4px;
         max-width: 400px;
-        grid-template-columns: repeat(6, 80px); 
-        grid-template-rows: repeat(3, 70px); 
+        grid-template-columns: repeat(6, 110px); 
+        grid-template-rows: repeat(3, 100px); 
     }
 }
