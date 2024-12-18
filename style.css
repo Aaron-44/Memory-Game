@@ -197,7 +197,7 @@ body {
     }
 
     .grid-container {
-        grid-gap :4px;
+        grid-gap: 4px;
     }
 
 }
@@ -221,7 +221,7 @@ body {
     }
 
     .grid-container {
-        grid-gap :3%;
+        grid-gap: 3%;
         max-width: 100%;
         padding: 10px;
     }
