@@ -221,7 +221,7 @@ body {
     }
 
     .grid-container {
-        grid-gap :2px;
+        grid-gap :3%;
         max-width: 100%;
         padding: 10px;
     }
