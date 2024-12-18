@@ -181,7 +181,7 @@ body {
 /* Anpassung für Smartphones im Querformat (bis 767px Breite) */
 @media (max-width: 767px) {
     .card {
-        height: 50px;
+        height: 80px;
         width: 80px;
         font-size: 16px;
     }
@@ -205,8 +205,8 @@ body {
 /* Anpassung für Smartphones im Hochformat (bis 479px Breite) */
 @media (max-width: 500px) {
     .card {
-        height: 80%;
-        width: 60%;
+        width: 22%;
+        height: auto;
         font-size: 14px;
     }
     h1 {
@@ -221,9 +221,9 @@ body {
     }
 
     .grid-container {
-        grid-gap :4px;
-        max-width: 400px;
-        grid-template-columns: repeat(6, 100px); 
-        grid-template-rows: repeat(3, 80px); 
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        grid-gap :3px;
+        max-width: 100%;
+        padding: 10px;
     }
 }
