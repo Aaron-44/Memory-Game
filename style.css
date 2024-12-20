@@ -81,7 +81,7 @@ button:hover {
     display: grid; /*Container als Grid-Layout */
     justify-content: center; 
     grid-gap: 5px;
-    grid-template-columns: repeat(6, 110px); 
+    grid-template-columns: repeat(6, 12%); 
     grid-template-rows: repeat(3, 140px); 
     max-width: auto;
     margin: 0 auto;
